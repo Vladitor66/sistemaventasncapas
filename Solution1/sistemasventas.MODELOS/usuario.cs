@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace sistemasventas.MODELOS
 {
-    internal class usuario
+    public class usuario
     {
+        public int IdUsuario {  get; set; }
+        public int IdPersona {  get; set; }
+        public string Nombreuser {  get; set; }
+        public int Contraseña { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }

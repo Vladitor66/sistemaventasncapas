@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace sistemasventas.MODELOS
 {
-    internal class marca
+    public class marca
     {
+        public int IdMarca {  get; set; }
+        public string Nombre { get; set; }
+        public string Estado { get; set; }
+
     }
 }
