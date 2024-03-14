@@ -16,7 +16,7 @@ namespace sistemaventas.DAL
 
         public static string CONECTAR
         {
-            get { return @"Data Source=(local); Initial Catalog=ExamenFinalBD; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=LAPTOP-F6AJG8G8\SQLEXPRESS; Initial Catalog=master; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
         }
         public static DataSet EjecutarDataSet(string consulta)

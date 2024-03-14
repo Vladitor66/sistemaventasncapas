@@ -14,10 +14,10 @@ namespace sistemasventas.BSS
     public class RolBss
     {
 
-            RolDal dal = new RolDAL();
+            RolDal dal = new RolDal();
             public DataTable ListarRolBss()
             {
-                return dal.ListarRolDAL();
+                return dal.ListarRolDal();
             }
         }
     }
