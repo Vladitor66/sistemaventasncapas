@@ -19,10 +19,25 @@ namespace sistemasventas.VISTA.PersonasVistas
         {
             InitializeComponent();
         }
-        PersonaBss bss=new PersonaBss();
+        PersonaBss bss = new PersonaBss();
         private void PersonaListarVista_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = bss.ListarPersonaBss();
+        }
+
+        private void seleccionar_Click(object sender, EventArgs e)
+        {
+            UsuarioInsertarVista.IdPersonaSeleccionada = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult result= MessageBox.Show("estas seguro que quieres eliminar esta persona","eliminado",MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                bss.EditarPersonaBss(IdPersonaSeleccionada);
+                dataGridView1.DataSource= bss.ListarPersonaBss();
+            }
         }
     }
 }

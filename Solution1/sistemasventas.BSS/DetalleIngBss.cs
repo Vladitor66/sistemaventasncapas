@@ -6,16 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace sistemasventas.BSS
 {
-    internal class DetalleIngBss
+    public class DetalleIngBss
     {
-        public class PersonaBss
-        {
-            PersonaDAL dal = new PersonaDAL();
-            public DataTable ListarPersonaBss()
+       
+            DetalleIngDAL dal = new DetalleIngDAL();
+            public DataTable ListarDetalleIngBss()
             {
-                return dal.ListarPersonasDal();
+                return dal.DetalleIngDAL();
             }
 
 

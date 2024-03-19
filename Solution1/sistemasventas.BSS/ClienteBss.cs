@@ -5,20 +5,25 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using sistemasventas.BSS;
+using sistemasventas.MODELOS;
 
 namespace sistemasventas.BSS
 {
-    internal class ClienteBss
-    {
-        public class PersonaBss
+    public class ClienteBss
+    
         {
-            PersonaDAL dal = new PersonaDAL();
-            public DataTable ListarPersonaBss()
+            ClienteDal dal = new ClienteDal();
+            public DataTable ListarClienteBss()
             {
                 return dal.ListarPersonasDal();
             }
-
-
+        public void InsertarClienteBss(Cliente cliente)
+        {
+            dal.InsertarClienteDAL(cliente);
         }
+
+
     }
-}
+    
+
