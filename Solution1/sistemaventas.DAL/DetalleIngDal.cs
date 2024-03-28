@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace sistemaventas.DAL
 {
-    internal class DetalleIngDal
+    public class DetalleIngDal
     {
-        public DataTable ListarPersonasDal()
+        public DataTable ListarDetalleIngDal()
         {
             string consulta = "select * from DetalleIng";
             DataTable Lista = conexion.EjecutarDataTabla(consulta, "tabla");

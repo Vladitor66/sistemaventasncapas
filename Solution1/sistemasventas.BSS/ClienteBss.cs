@@ -11,19 +11,17 @@ using sistemasventas.MODELOS;
 namespace sistemasventas.BSS
 {
     public class ClienteBss
-    
+
+    {
+        ClienteDal dal = new ClienteDal();
+        public DataTable ListarClienteBss()
         {
-            ClienteDal dal = new ClienteDal();
-            public DataTable ListarClienteBss()
-            {
-                return dal.ListarPersonasDal();
-            }
-        public void InsertarClienteBss(Cliente cliente)
-        {
-            dal.InsertarClienteDAL(cliente);
+            return dal.ListarClienteDal();
         }
+        
 
 
     }
+}
     
 

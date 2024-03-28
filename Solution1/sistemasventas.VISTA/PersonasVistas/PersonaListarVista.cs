@@ -35,7 +35,7 @@ namespace sistemasventas.VISTA.PersonasVistas
             DialogResult result= MessageBox.Show("estas seguro que quieres eliminar esta persona","eliminado",MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                bss.EditarPersonaBss(IdPersonaSeleccionada);
+                //bss.EditarPersonaBss(IdPersonaSeleccionada);
                 dataGridView1.DataSource= bss.ListarPersonaBss();
             }
         }

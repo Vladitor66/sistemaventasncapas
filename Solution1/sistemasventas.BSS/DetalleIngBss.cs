@@ -11,14 +11,15 @@ namespace sistemasventas.BSS
 {
     public class DetalleIngBss
     {
-       
-            DetalleIngDAL dal = new DetalleIngDAL();
-            public DataTable ListarDetalleIngBss()
-            {
-                return dal.DetalleIngDAL();
-            }
 
-
+        DetalleIngDal dal = new DetalleIngDal();
+        public DataTable ListarDetalleIngBss()
+        {
+            return dal.ListarDetalleIngDal();
         }
+
+
+
     }
+
 }

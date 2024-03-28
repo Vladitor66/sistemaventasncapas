@@ -16,7 +16,7 @@ namespace sistemaventas.DAL
 
         public static string CONECTAR
         {
-            get { return @"Data Source=LAPTOP-F6AJG8G8\SQLEXPRESS; Initial Catalog=master; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=LAPTOP-F6AJG8G8\SQLEXPRESS; Initial Catalog=TIENDABD; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
         }
         public static DataSet EjecutarDataSet(string consulta)
@@ -77,6 +77,20 @@ namespace sistemaventas.DAL
                 }
             }
         }
+        public static bool VerificarCredenciales(string usuario, string contraseña)
+        {
+            string consulta = "SELECT COUNT(1) FROM usuario WHERE nombreuser = @Usuario AND contraseña = @Contraseña";
 
+            using (SqlConnection conectar = new SqlConnection(CONECTAR))
+            {
+                conectar.Open();
+                SqlCommand cmd = new SqlCommand(consulta, conectar);
+                cmd.Parameters.AddWithValue("@Usuario", usuario);
+                cmd.Parameters.AddWithValue("@Contraseña", contraseña);
+
+                int count = Convert.ToInt32(cmd.ExecuteScalar());
+                return count == 1;
+            }
+        }
     }
 }

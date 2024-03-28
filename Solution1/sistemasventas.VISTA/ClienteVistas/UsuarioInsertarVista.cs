@@ -20,6 +20,7 @@ namespace sistemasventas.VISTA.PersonasVistas
             InitializeComponent();
         }
         public static int IdPersonaSeleccionada = 0;
+        PersonaBss Bss = new PersonaBss();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -27,8 +28,8 @@ namespace sistemasventas.VISTA.PersonasVistas
             fr.ShowDialog();
             if (fr.ShowDialog() == DialogResult.OK)
             {
-                persona persona = BSS.ObtenerIdBss(IdPersonaSeleccionada);
-                textBox1 = persona.Nombre + "" + persona.Apellido;
+                persona persona = Bss.ObtenerIdBss(IdPersonaSeleccionada);
+                //textBox1 = persona.Nombre + "" + persona.Apellido;
             }
         }
 
@@ -42,7 +43,7 @@ namespace sistemasventas.VISTA.PersonasVistas
             PersonaListarVista fr= new PersonaListarVista();
             if (fr.ShowDialog()==DialogResult.OK)
             {
-                persona persona=bssuser.obtener 
+                //persona persona = Bss.ObtenerIdBss(); 
             }
         }
     }

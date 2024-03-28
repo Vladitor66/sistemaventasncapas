@@ -15,7 +15,7 @@ namespace sistemasventas.VISTA.PersonasVistas
     public partial class PersonaEditarVista : Form
     {
         int idx = 0;
-        Persona p = persona();
+        persona p = new persona();
         PersonaBss bss = new PersonaBss();
 
         public PersonaEditarVista()
@@ -27,10 +27,10 @@ namespace sistemasventas.VISTA.PersonasVistas
         private void PersonaEditarVista_Load(object sender, EventArgs e)
         {
             p = bss.ObtenerIdBss(idx);
-            textBox1.Text = p.nombre;
-            textBox2.Text = p.apellido;
-            textBox3.Text = p.telefono;
-            textBox4.Text = p.ci;
+            textBox1.Text = p.Nombre;
+            textBox2.Text = p.Apellido;
+            textBox3.Text = p.Telefono;
+            textBox4.Text = p.Ci;
             
 
 
@@ -38,10 +38,10 @@ namespace sistemasventas.VISTA.PersonasVistas
 
         private void button3_Click(object sender, EventArgs e)
         {
-            p.nombre = textBox1.Text;
-            p.apellido = textBox2.Text; 
-            p.telefono = textBox3.Text;
-            p.ci = textBox4.Text;
+            p.Nombre = textBox1.Text;
+            p.Apellido = textBox2.Text; 
+            p.Telefono = textBox3.Text;
+            p.Ci = textBox4.Text;
             bss.EditarPersonaBss(p);
             
         }
