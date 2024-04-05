@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemasVentas.BSS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,8 @@ namespace sistemasventas.VISTA.ProyectoFinal
         {
             InitializeComponent();
         }
-
+        public static int IdProductoSeleccionado = 0;
+        ProductoBss bssproducto = new ProductoBss();
         private void BuscarProveedorVista_Load(object sender, EventArgs e)
         {
 

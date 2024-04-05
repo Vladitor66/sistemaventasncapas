@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.MODELOS
+namespace SistemasVentas.Modelos
 {
-    public class usuarioRol
+    public class UsuarioRol
     {
-        public int IDUsuarioRol { get; set; }
-        public int IDUsuario { get; set; }
-        public int IDRol { get; set; }
+        public int IdUsuarioRol { get; set; }
+        public int IdUsuario { get; set; }
+        public int IdRol { get; set; }
         public DateTime FechaAsigna { get; set; }
         public string Estado { get; set; }
-
     }
 }

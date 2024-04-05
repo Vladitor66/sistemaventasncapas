@@ -1,4 +1,5 @@
-﻿using sistemaventas.DAL;
+﻿using SistemasVentas.DAL;
+using SistemasVentas.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,19 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.BSS
+namespace SistemasVentas.BSS
 {
-    internal class DetalleVentaBss
+    public class DetalleVentaBss
     {
-        public class PersonaBss
+        DetalleVentaDal dal = new DetalleVentaDal();
+        public DataTable ListarDetallesVentaBass()
         {
-            PersonaDAL dal = new PersonaDAL();
-            public DataTable ListarPersonaBss()
-            {
-                return dal.ListarPersonasDal();
-            }
+            return dal.ListarDetallesVentaDal();
+        }
 
+        public void InsertarDetalleVentaBss(DetalleVenta detalleVenta)
+        {
+            dal.InsertarDetalleVentaDal(detalleVenta);
+        }
 
+        public DetalleVenta ObtenerDetalleVentaIdBss(int id)
+        {
+            return dal.ObtenerDetalleVentaId(id);
+        }
+
+        public void EditarDetalleVentaBss(DetalleVenta detalleVenta)
+        {
+            dal.EditarDetalleVentaDal(detalleVenta);
+        }
+
+        public void EliminarDetalleVentaBss(int id)
+        {
+            dal.EliminarDetalleVentaDal(id);
         }
     }
 }

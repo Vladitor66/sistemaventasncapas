@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using sistemasventas.MODELOS;
 using sistemasventas.BSS;
+using SistemasVentas.BSS;
+using SistemasVentas.Modelos;
 
 namespace sistemasventas.VISTA.PersonasVistas
 {
@@ -21,7 +23,7 @@ namespace sistemasventas.VISTA.PersonasVistas
         PersonaBss bss = new PersonaBss();
         private void button1_Click(object sender, EventArgs e)
         {
-            persona p = new persona();
+            Persona p = new Persona();
             p.Nombre = textBox1.Text;
             p.Apellido = textBox2.Text;
             p.Telefono = textBox3.Text;

@@ -1,19 +1,64 @@
-﻿using System;
+﻿using sistemasventas.MODELOS;
+using SistemasVentas.Modelos;
+using sistemaventas.DAL;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemaventas.DAL
+namespace SistemasVentas.DAL
 {
-    internal class IngresoDal
+    public class IngresoDal
     {
-        public DataTable ListarPersonasDal()
+        public DataTable ListarIngresosDal()
         {
-            string consulta = "select * from IngresoDal";
-            DataTable Lista = conexion.EjecutarDataTabla(consulta, "tabla");
-            return Lista;
+            string consulta = "SELECT        INGRESO.IDINGRESO, PROVEEDOR.NOMBRE, INGRESO.FECHAINGRESO, INGRESO.TOTAL, INGRESO.ESTADO\nFROM            INGRESO INNER JOIN\n                         PROVEEDOR ON INGRESO.IDPROVEEDOR = PROVEEDOR.IDPROVEEDOR";
+            DataTable lista = conexion.EjecutarDataTabla(consulta, "tabla");
+            return lista;
+        }
+
+        public void InsertarIngresoDal(Ingreso ingreso)
+        {
+            string consulta = "insert into ingreso values(" + ingreso.IdProveedor + "," +
+                                                         "'" + ingreso.FechaIngreso + "'," +
+                                                         "" + ingreso.Total + "," +
+                                                         "'" + ingreso.Estado + "')";
+            conexion.Ejecutar(consulta);
+        }
+
+        public Ingreso ObtenerIngresoId(int id)
+        {
+            string consulta = "select * from ingreso where idingreso = " + id;
+            DataTable tabla = conexion.EjecutarDataTabla(consulta, "asdas");
+            Ingreso ingreso = new Ingreso();
+            if (tabla.Rows.Count > 0)
+            {
+                ingreso.IdIngreso = Convert.ToInt32(tabla.Rows[0]["idIngreso"]);
+                ingreso.IdProveedor = Convert.ToInt32(tabla.Rows[0]["idProveedor"]);
+                ingreso.FechaIngreso = Convert.ToDateTime(tabla.Rows[0]["fechaIngreso"]);
+                ingreso.Total = Convert.ToDecimal(tabla.Rows[0]["total"]);
+                ingreso.Estado = tabla.Rows[0]["estado"].ToString();
+            }
+            return ingreso;
+        }
+
+        public void EditarIngresoDal(Ingreso ingreso)
+        {
+            string consulta = "update ingreso set idProveedor =" + ingreso.IdProveedor + "," +
+                                                 "fechaIngreso ='" + ingreso.FechaIngreso + "'," +
+                                                 "total =" + ingreso.Total + "," +
+                                                 "estado ='" + ingreso.Estado + "' " +
+                                    "where idingreso =" + ingreso.IdIngreso;
+
+            conexion.Ejecutar(consulta);
+        }
+
+        public void EliminarIngresoDal(int id)
+        {
+            string consulta = "delete from ingreso where idingreso =" + id;
+            conexion.Ejecutar(consulta);
         }
     }
 }

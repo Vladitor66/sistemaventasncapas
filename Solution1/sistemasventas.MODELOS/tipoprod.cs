@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.MODELOS
+namespace SistemasVentas.Modelos
 {
-    public class tipoprod
+    public class TipoProd
     {
-        public int IdTipoprod {  get; set; }
-        public string Nombre { get; set;}
+        public int IdTipoProd { get; set; }
+        public string Nombre { get; set; }
         public string Estado { get; set; }
     }
 }

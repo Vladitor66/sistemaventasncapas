@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.MODELOS
+namespace SistemasVentas.Modelos
 {
-    public class marca
+    public class Marca
     {
-        public int IdMarca {  get; set; }
+        public int IdMarca { get; set; }
         public string Nombre { get; set; }
         public string Estado { get; set; }
-
     }
 }

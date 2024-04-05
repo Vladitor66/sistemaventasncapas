@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.MODELOS
+namespace SistemasVentas.Modelos
 {
     public class Venta
     {
-        public int IDVenta { get; set; }
-        public int IDCliente { get; set; }
-        public int IDVendedor { get; set; }
+        public int IdVenta { get; set; }
+        public int IdCliente { get; set; }
+        public int IdVendedor { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Total { get; set; }
         public string Estado { get; set; }
-
     }
 }

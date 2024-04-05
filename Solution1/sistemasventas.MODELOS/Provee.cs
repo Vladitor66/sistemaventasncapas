@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sistemasventas.MODELOS
+namespace SistemasVentas.Modelos
 {
     public class Provee
     {
-        public int IDProvee { get; set; }
-        public int IDProducto { get; set; }
-        public int IDProveedor { get; set; }
+        public int IdProvee { get; set; }
+        public int IdProducto { get; set; }
+        public int IdProveedor { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Precio { get; set; }
-
     }
 }

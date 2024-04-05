@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\bin\Debug\net8.0\sistemasventas.MODELOS.deps.json
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\bin\Debug\net8.0\sistemasventas.MODELOS.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\bin\Debug\net8.0\sistemasventas.MODELOS.pdb
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.sourcelink.json
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\refint\sistemasventas.MODELOS.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\sistemasventas.MODELOS.pdb
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemasventas.MODELOS\obj\Debug\net8.0\ref\sistemasventas.MODELOS.dll

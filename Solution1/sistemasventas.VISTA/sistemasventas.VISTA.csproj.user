@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ClienteVistas\ClienteEditarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClienteVistas\ClienteInsertarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClienteVistas\ClienteListarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClienteVistas\VendeClienteListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleIngVistas\DetalleIngEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleIngVistas\DetalleIngInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleIngVistas\DetalleIngListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleIngVistas\VendeDetalleIngVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleVentaVistas\DetalleVentaEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleVentaVistas\DetalleVentaInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DetalleVentaVistas\DetalleVentaListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IngresoVistas\IngresoEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IngresoVistas\IngresoInsertarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IngresoVistas\IngresoListarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MarcaVistas\MarcaEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MarcaVistas\MarcaInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MarcaVistas\MarcaListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PersonasVistas\PersonaEditarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PersonasVistas\PersonaInsertarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PersonasVistas\PersonaListarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductoVistas\ProductoEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductoVistas\ProductoInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductoVistas\ProductoListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveedorVistas\ProductoEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveedorVistas\ProductoInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveedorVistas\ProveedorListarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveeVistas\ProveeEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveeVistas\ProveeInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProveeVistas\ProveeListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProyectoFinal\AdministradorPersonaVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProyectoFinal\BuscarProveedorVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProyectoFinal\IniciarSesionVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProyectoFinal\VendedorPersonaVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RolVistas\RolEditarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RolVistas\RolInsertarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RolVistas\RolListarVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TipoProdVistas\TipoProdEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TipoProdVistas\TipoProdInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TipoProdVistas\TipoProdListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioRolVistas\UsuarioRolEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioRolVistas\UsuarioRolInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioRolVistas\UsuarioRolListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioVistas\UsuarioEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioVistas\UsuarioInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuarioVistas\UsuarioListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentaVistas\VentaEditarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentaVistas\VentaInsertarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VentaVistas\VentaListarVistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

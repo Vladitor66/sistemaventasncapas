@@ -12,6 +12,7 @@ namespace sistemasventas.VISTA
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new ProyectoFinal.IniciarSesionVista());
+            Application.Run(new DetalleIngVistas.DetalleIngListarVistas());
         }
     }
 }

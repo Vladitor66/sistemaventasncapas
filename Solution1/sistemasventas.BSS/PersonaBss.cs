@@ -1,37 +1,40 @@
-﻿using System;
+﻿using SistemasVentas.DAL;
+using SistemasVentas.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using sistemaventas.DAL;
-using sistemasventas.MODELOS;
 
-namespace sistemasventas.BSS
+namespace SistemasVentas.BSS
 {
     public class PersonaBss
     {
-        PersonaDAL dal = new PersonaDAL();
-        public DataTable ListarPersonaBss()
+        PersonaDal dal = new PersonaDal();
+        public DataTable ListarPersonasBass()
         {
             return dal.ListarPersonasDal();
         }
-        public void InsertarPersonaBss(persona persona)
+
+        public void InsertarPersonaBss(Persona persona)
         {
-            dal.InsetarPersonaDal(persona);
+            dal.InsertarPersonaDal(persona);
         }
-        public persona ObtenerIdBss(int id)
+
+        public Persona ObtenerIdBss(int id)
         {
             return dal.ObtenerPersonaId(id);
         }
-        public void EditarPersonaBss(persona p)
+
+        public void EditarPersonaBss(Persona persona)
         {
-            dal.EditarPersonaDal(p);
+            dal.EditarPersonaDal(persona);
         }
-        public void EliminarpersonaBss(int id)
+
+        public void EliminarPersonaBss(int id)
         {
             dal.EliminarPersonaDal(id);
         }
-
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\bin\Debug\net8.0\sistemaventas.DAL.deps.json
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\bin\Debug\net8.0\sistemaventas.DAL.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\bin\Debug\net8.0\sistemaventas.DAL.pdb
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.sourcelink.json
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\refint\sistemaventas.DAL.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.pdb
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\ref\sistemaventas.DAL.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\bin\Debug\net8.0\sistemasventas.MODELOS.dll
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\bin\Debug\net8.0\sistemasventas.MODELOS.pdb
+C:\Users\USUARIO\Desktop\proyectofinal\sistemaventasncapas\Solution1\sistemaventas.DAL\obj\Debug\net8.0\sistemaventas.DAL.csproj.CopyComplete
